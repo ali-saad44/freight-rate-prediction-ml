@@ -74,7 +74,7 @@ conda activate analysis
 
 ### 2. Install Project Dependencies
 ```bash
-cd /home/saad/Desktop/plan/solution
+
 pip install -r requirements.txt
 ```
 
@@ -171,12 +171,7 @@ Final validation metrics are calculated by Spotter after submission.
 
 ## 🚀 8. Step-by-Step Reproduction Guide
 
-### Option 1: End-to-End Pipeline (Recommended)
-```bash
-python run_pipeline.py
-```
 
-### Option 2: Individual Execution Steps
 ```bash
 # 1. Train models and evaluate cross-validation
 python train.py
@@ -202,4 +197,4 @@ python score.py --predictions validation_predictions.csv --december-predictions 
 =======
 # Initial-submission-Freight-Rate-Prediction-ML-Solution
 End-to-end Freight Rate Prediction ML engine with temporal validation, domain pricing interactions, and GBDT ensemble modeling 
->>>>>>> eb295cadb54f23cac6b2d8e24e7178338ad73ab5
+
